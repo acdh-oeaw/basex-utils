@@ -1,0 +1,171 @@
+<html xml:space="preserve"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>xqDoc -- Module</title><script language="JavaScript"><!--
+        function popUp(URL) {
+                 day = new Date();
+                 id = day.getTime();
+                 eval("page = window.open(URL, 'xqdoccode', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=600,height=400,left = 412,top = 334');")
+                 page.focus();
+        }
+      --></script><style><!--
+body		{
+		font: 80% Verdana;
+		}
+table		{
+		font-size: 100%;
+		}
+h1, h2, h3, h4, h5, h6
+		{
+		clear: both;
+		float: none;
+		}
+h1		{
+		font-size: 100%;
+		margin: 0em;
+		}
+h2		{
+		font-size: 180%;
+		margin-bottom: -1em;
+		margin-top: .3em;
+		}
+h3		{
+		font-size: 150%;
+		}	
+h4		{
+		font-size: 140%;
+		background-color: #ccf;
+		border-bottom: 1px solid #99f;
+		width: 100%;
+		}
+h5		{
+		margin: 1em 0em 0em 0em;
+		font-size: 120%;
+		}
+h6		{
+		margin: 0em 0em 0em 3em;
+		font-style: italic;
+		font: bold italic;
+		font-size: 100%;
+		}
+#variables, #methods, #methoddetail
+		{
+		padding-left: 3em;
+		margin-bottom: 1.4em;
+		clear: both;
+		float: none;
+		}
+#methods ul.method, #variables ul.method
+		{
+		margin: 1em 0em 0em;
+		}
+#methoddetail ul.method
+		{
+		margin: 0em;
+		}
+div.inexternal
+		{
+		padding-left: 2em;
+		margin-bottom: 1em;
+		}
+div.methoddetail p
+		{
+		float: none;
+		clear: both;
+		padding-left: 2em;
+		margin-bottom: 1em;
+		}
+div.methoddetail{
+		padding-bottom: 1em;
+		}
+div.methoddetail li
+		{
+		list-style-type: none;
+		font-weight: bold;
+		}
+div.methoddetail li li
+		{
+		list-style-type: circle;
+		font-weight: normal;
+		}
+div.methoddetail li ul
+		{
+		padding-bottom: 0.5em;
+		font-weight: normal;
+		}
+div.methoddetail code{
+		font-size: 120%;    
+}
+table.inexternal{
+		clear: both;
+		float: none;
+		width: 80%;
+		margin-left: 3em;
+		padding: 0em;
+		
+		}
+table.inexternal th
+		{
+		background-color:#dedede;
+		width: 50%;
+		}			
+td		{
+		vertical-align: top;
+		}
+div.description {
+		margin-top: .5em;
+		font-weight: normal;
+		padding-left: 1em;
+		}
+ul.method	{
+		clear: both;
+		float: none;
+		width: 90%;
+		list-style-type: none;
+		border-top: 1px solid #ccc;
+		}
+ul.method li.left
+		{
+		float: left;
+		clear: none;
+		width: 40%;
+		font-weight: bold;
+		margin-bottom: 2em;
+		}
+ul.method li.right
+		{
+		position: relative;
+            top: 0em;
+		float: left;
+            width: 55%;
+		margin-bottom: 2em;
+		padding-left: 2em;
+		}
+div.home 	{
+		width: 60%;
+		float: left;
+		margin-right: 1%;
+		border: 1px
+		}
+div.home h4	{
+		font-size: 120%;
+		background-color: #fff;
+		border-bottom: 1px solid #99f;
+		width: 100%;
+		margin-bottom: -1em;
+		}
+div.overview p {
+               width: 60%;
+               }
+     
+ --></style></head><body><a href="default.html"><h1>xqDoc Home</h1></a><h4>Module URI</h4><h1>https://www.oeaw.ac.at/acdh/util/util</h1><h4>Module Description</h4><p>This module provides the utility functions used at the ACDH-CH when writing BaseX Software.<br>This modules raise errors in this namespace https://www.oeaw.ac.at/acdh/util/error<br>
+TODO:<br><ul>
+<li>The eval(s) functions are missing a watchdog feature that terminates the started<br>jobs if the starting query is interupted or destroyed by something.</li>
+</ul></p><ul><li><strong>Author:&nbsp;</strong>Omar Siam,</li><li><strong>Version:&nbsp;</strong>1.0</li><li><strong>Since:&nbsp;</strong>June 1, 2018</li></ul><h4>Variables</h4><div id="variables"><div><a name="$"></a><ul class="method"><li class="left">$_:basePath</li><li class="right">This is set to the path of this module.
+This is used to construct better error messages.
+The ad-hoc XQuery snippets evaluated here will have a "location": $util:basePath.</li></ul><ul></ul></div><div><a name="$"></a><ul class="method"><li class="left">$_:selfName</li><li class="right">This is the file name of this module.
+Unused here at the moment.</li></ul><ul></ul></div><div><a name="$"></a><ul class="method"><li class="left">$_:vleUtilSortKey</li><li class="right">This is the name of an attribute used for sorting dehydrated nodes.
+It should be unique and not used by any other code.</li></ul><ul></ul></div><div><a name="$"></a><ul class="method"><li class="left">$_:unit-test-fruit-names</li><li class="right"></li></ul><ul></ul></div></div>&nbsp;<h4>Imported Modules</h4><div id="imports"><div><ul class="method"><li class="left">http://basex.org/modules/jobs</li><li class="right"></li></ul><ul></ul></div><div><ul class="method"><li class="left">http://basex.org/modules/admin</li><li class="right"></li></ul><ul></ul></div></div>&nbsp;<h4>Namesapces</h4><div id="namespaces"><div><a name="https://www.oeaw.ac.at/acdh/util/error"></a><ul class="method"><li class="left">https://www.oeaw.ac.at/acdh/util/error</li><li class="right"></li></ul><ul></ul></div><div><a name="http://basex.org/modules/unit"></a><ul class="method"><li class="left">http://basex.org/modules/unit</li><li class="right"></li></ul><ul></ul></div></div>&nbsp;<h4>Function Summary</h4><div id="methods"><a name="methods"></a><ul class="method"><li class="left"><a href="#_:basic-auth-decode">_:basic-auth-decode</a><div class="description">Decodes the user name and password passed in Basic Auth.</div></li><li class="right"><br>( $encoded-auth as xs:string) as xs:string<br><br></li></ul><ul class="method"><li class="left"><a href="#_:basic-auth-decode-test">_:basic-auth-decode-test</a><div class="description"></div></li><li class="right"><br>%unit:test<br>( ) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:db-name">_:db-name</a><div class="description">Get the db name containing a particular node.</div></li><li class="right"><br>( $n as node()) as xs:string<br><br></li></ul><ul class="method"><li class="left"><a href="#_:dehydrate">_:dehydrate</a><div class="description">Reduce a result of an XQuery to references of DB nodes.</div></li><li class="right"><br>( $nodes as node()* ,<br>&nbsp; $data-extractor-xquery as (function(node()) as attribute()*)?) as element(_:dryed)*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:eval">_:eval</a><div class="description">Executes a reading query as separate job so without any locks in the calling XQuery.</div></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:eval">_:eval</a><div class="description">Executes any query as separate job so without any locks in the calling XQuery.</div></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:eval-test">_:eval-test</a><div class="description"></div></li><li class="right"><br>%unit:test<br>( ) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:evals">_:evals</a><div class="description">Executes queries as separate jobs without locks in the calling XQuery.</div></li><li class="right"><br>( $queries as xs:string+ ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:evals">_:evals</a><div class="description">Executes one query and binds a sequence of $batch-size items in sequence $sequencKey of $bindings per job.</div></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $sequenceKey as xs:string ,<br>&nbsp; $batch-size as xs:integer ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-base-uri-public">_:get-base-uri-public</a><div class="description">Use the X-Forwarded-Request-Uri custom request header to get the correct base URI as seen by the reverse proxy</div></li><li class="right"><br>( ) as xs:string<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-base-uri-public-test">_:get-base-uri-public-test</a><div class="description"></div></li><li class="right"><br>%unit:test <br>%unit:ignore("needs HTTP connection")<br>( ) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-batch-size">_:get-batch-size</a><div class="description">Set the batch size to 1/3 of all possible parallel jobs</div></li><li class="right"><br>( ) as xs:integer<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-public-scheme-and-hostname">_:get-public-scheme-and-hostname</a><div class="description">Try to get the correct scheme and hostname as seen by the reverse proxy</div></li><li class="right"><br>( ) as xs:string<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-public-scheme-and-hostname-test">_:get-public-scheme-and-hostname-test</a><div class="description"></div></li><li class="right"><br>%unit:test <br>%unit:ignore("needs HTTP connection")<br>( ) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-results-or-errors">_:get-results-or-errors</a><div class="description">Get results or errors for a sequence of job IDs.</div></li><li class="right"><br>( $js as xs:string*) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-xml-file-or-default">_:get-xml-file-or-default</a><div class="description">Return doc($fn) or if it cannot be resolves doc($default) without any locks in the calling query.</div></li><li class="right"><br>( $fn as xs:string ,<br>&nbsp; $default as xs:string) as document-node()<br><br></li></ul><ul class="method"><li class="left"><a href="#_:get-xml-file-or-default">_:get-xml-file-or-default</a><div class="description">Return doc($fn) or if it cannot be resolves doc($default) without any locks in the calling query.</div></li><li class="right"><br>( $fn as xs:string ,<br>&nbsp; $default as xs:string ,<br>&nbsp; $fn-is-valid as xs:boolean) as document-node()<br><br></li></ul><ul class="method"><li class="left"><a href="#_:hydrate">_:hydrate</a><div class="description">Fetch the real XML data from databases according to $dryed references.</div></li><li class="right"><br>( $dryed as element(_:d)+) as node()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:hydrate">_:hydrate</a><div class="description">Fetch the real XML data from databases according to $dryed references.</div></li><li class="right"><br>( $dryed as element(_:d)+ ,<br>&nbsp; $filter_code as xs:string) as node()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:query-is-sane">_:query-is-sane</a><div class="description">Implementation detail: Check whether this XQuery uses updating or other functions that can be destructive.</div></li><li class="right"><br>%private<br>( $query as xs:string) as xs:boolean<br><br></li></ul><ul class="method"><li class="left"><a href="#_:start-eval-job">_:start-eval-job</a><div class="description">Implementation detail: Executes a query as separate job.</div></li><li class="right"><br>%private<br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean ,<br>&nbsp; $subJobNumber as xs:integer) as xs:string<br><br></li></ul><ul class="method"><li class="left"><a href="#_:throw-on-error-in-returns">_:throw-on-error-in-returns</a><div class="description">Raises an error if there were any reported in the encoded results passed to this function.</div></li><li class="right"><br>( $ret as item()*) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:zzz-unit-test-after">_:zzz-unit-test-after</a><div class="description"></div></li><li class="right"><br>%unit:after <br>%updating<br>( ) as item()*<br><br></li></ul><ul class="method"><li class="left"><a href="#_:zzz-unit-test-before">_:zzz-unit-test-before</a><div class="description"></div></li><li class="right"><br>%unit:before <br>%updating<br>( ) as item()*<br><br></li></ul></div>&nbsp;<h4>Function Detail</h4><div id="methoddetail"><div id="_:basic-auth-decode" class="methoddetail"><h5><a name="_:basic-auth-decode"></a>_:basic-auth-decode</h5><ul class="method"><li class="left"></li><li class="right"><br>( $encoded-auth as xs:string) as xs:string<br><br></li></ul><p>Decodes the user name and password passed in Basic Auth.</p><ul><li>Parameters:</li><ul><li>$encoded-auth - Basic Auth header string Base64 encoded<br></li></ul><li>Return:</li><ul><li>user name:password</li></ul></ul></div>&nbsp;<div id="_:basic-auth-decode-test" class="methoddetail"><h5><a name="_:basic-auth-decode-test"></a>_:basic-auth-decode-test</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:test<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;<div id="_:db-name" class="methoddetail"><h5><a name="_:db-name"></a>_:db-name</h5><ul class="method"><li class="left"></li><li class="right"><br>( $n as node()) as xs:string<br><br></li></ul><p>Get the db name containing a particular node.<br>BaseX' db:name causes global read lock.</p><ul><li>Parameters:</li><ul><li>$n - A node<br></li></ul><li>Return:</li><ul><li>Name of the DB containing the node $n.</li></ul></ul></div>&nbsp;<div id="_:dehydrate" class="methoddetail"><h5><a name="_:dehydrate"></a>_:dehydrate</h5><ul class="method"><li class="left"></li><li class="right"><br>( $nodes as node()* ,<br>&nbsp; $data-extractor-xquery as (function(node()) as attribute()*)?) as element(_:dryed)*<br><br></li></ul><p>Reduce a result of an XQuery to references of DB nodes.</p><ul><li>Parameters:</li><ul><li>$nodes - Nodes to turn into references to them<br></li><li>$data-extractor-xquery - A function that extracts some attribute from the nodes<br>and makes it available in the reference data directly e. g. for sorting<br></li></ul><li>Return:</li><ul><li>References to the nodes. The result is not sorted, most probably document order applies</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:hydrate">_:hydrate</a></li></ul></ul></div>&nbsp;<div id="_:eval" class="methoddetail"><h5><a name="_:eval"></a>_:eval</h5><ul class="method"><li class="left"></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string) as item()*<br><br></li></ul><p>Executes a reading query as separate job so without any locks in the calling XQuery.<br>Shortcut for eval with $dontCheckQuery = false().</p><ul><li>Parameters:</li><ul><li>$query - Query to execute.<br></li><li>$bindings - Map with bindings for external variables contained in the query<br></li><li>$jobName - A discriptive name for the query so it can be identified<br></li></ul><li>Return:</li><ul><li>Result of the query.<br>Reraises any exceptions that the query may have raised.</li></ul></ul></div>&nbsp;<div id="_:eval" class="methoddetail"><h5><a name="_:eval"></a>_:eval</h5><ul class="method"><li class="left"></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><p>Executes any query as separate job so without any locks in the calling XQuery.<br>For potentially dangerous queries $dontCheckQuery has to be true()<br>Details are implemented in start-eval-job.</p><ul><li>Parameters:</li><ul><li>$query - Query to execute.<br></li><li>$bindings - Map with bindings for external variables contained in the query.<br></li><li>$jobName - A discriptive name for the query so it can be identified.<br></li><li>$dontCheckQuery - Allow updating and more destructive XQueries.<br></li></ul><li>Return:</li><ul><li>Result of the query.<br>Reraises any exceptions that the query may have raised.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:start-eval-job">_:start-eval-job</a></li></ul></ul></div>&nbsp;<div id="_:eval-test" class="methoddetail"><h5><a name="_:eval-test"></a>_:eval-test</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:test<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;<div id="_:evals" class="methoddetail"><h5><a name="_:evals"></a>_:evals</h5><ul class="method"><li class="left"></li><li class="right"><br>( $queries as xs:string+ ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><p>Executes queries as separate jobs without locks in the calling XQuery.<br>Uses jobs:eval() with caching to execute batches of $queries truely independently of the<br>calling XQuery including locks and indexes if the optimizer recognizes the databases in the<br>probably much shorter (sub)query.<br>Tries to create meaningful names and base-uris for each query in $queries.<br>Uses a small random delay to not start all queries at once.<br>Logs if execution needs more than 100ms.<br>The main use of this function is to query a set of similar databases with pre created<br>XQueries that contain any database name as string literal.<br>This is easy to achieve with the XQuery 3.1 String constructors.</p><ul><li>Parameters:</li><ul><li>$queries - Queries to execute.<br></li><li>$bindings - Map with bindings for external variables contained in the query.<br></li><li>$jobName - A descriptive name of the job $query does<br></li><li>$dontCheckQuery - Allow updating and more destructive XQueries.<br></li></ul><li>Return:</li><ul><li>The job ID which jobs:* function take as an argument.<br>Raises an _err:too-many-parallel-requests if there are currently more jobs running<br>then the maximum of parallel jobs configured for BaseX.<br>Will reraise any error while executing $queries.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:start-eval-job">_:start-eval-job</a></li><li><a href="xqdoc-file-4.html#_:get-results-or-errors">_:get-results-or-errors</a></li><li><a href="xqdoc-file-4.html#_:throw-on-error-in-returns">_:throw-on-error-in-returns</a></li></ul></ul></div>&nbsp;<div id="_:evals" class="methoddetail"><h5><a name="_:evals"></a>_:evals</h5><ul class="method"><li class="left"></li><li class="right"><br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $sequenceKey as xs:string ,<br>&nbsp; $batch-size as xs:integer ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean) as item()*<br><br></li></ul><p>Executes one query and binds a sequence of $batch-size items in sequence $sequencKey of $bindings per job.<br>For example with seqenceKey := 'aKey':<br><code>map { 'aKey': (&lt;a/&gt;,&lt;b/&gt;)}</code>
+<br>If $batch-size is one two jobs are executed with &lt;a/&gt; and &lt;b/&gt; bound respectively,<br>if $batch-size is two one job is executed with (&lt;a/&gt;,&lt;b/&gt;) bound<br>and so on.</p><ul><li>Parameters:</li><ul><li>$query - A query with at least one external variable $sequenceKey<br></li><li>$bindings - Map with bindings for external variables contained in the query.<br></li><li>$sequenceKey - The name of the key in bindings which should be split $batch-size per job.<br></li><li>$bach-size - The maximum number of jobs this query should create simultaneously.<br></li><li>$jobName - A descriptive name of the job $query does<br></li><li>$dontCheckQuery - Allow updating and more destructive XQueries.<br></li></ul><li>Return:</li><ul><li>The job ID which jobs:* function take as an argument.<br>Will reraise any error while executing $queries.</li></ul></ul></div>&nbsp;<div id="_:get-base-uri-public" class="methoddetail"><h5><a name="_:get-base-uri-public"></a>_:get-base-uri-public</h5><ul class="method"><li class="left"></li><li class="right"><br>( ) as xs:string<br><br></li></ul><p>Use the X-Forwarded-Request-Uri custom request header to get the correct base URI as seen by the reverse proxy</p><ul><li>Return:</li><ul><li>Either the base URI as seen by the reverse proxy or request:path() reported by jetty.</li></ul></ul></div>&nbsp;<div id="_:get-base-uri-public-test" class="methoddetail"><h5><a name="_:get-base-uri-public-test"></a>_:get-base-uri-public-test</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:test <br>%unit:ignore("needs HTTP connection")<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;<div id="_:get-batch-size" class="methoddetail"><h5><a name="_:get-batch-size"></a>_:get-batch-size</h5><ul class="method"><li class="left"></li><li class="right"><br>( ) as xs:integer<br><br></li></ul><p>Set the batch size to 1/3 of all possible parallel jobs</p><ul><li>Return:</li><ul><li>Number of jobs in on batch.</li></ul></ul></div>&nbsp;<div id="_:get-public-scheme-and-hostname" class="methoddetail"><h5><a name="_:get-public-scheme-and-hostname"></a>_:get-public-scheme-and-hostname</h5><ul class="method"><li class="left"></li><li class="right"><br>( ) as xs:string<br><br></li></ul><p>Try to get the correct scheme and hostname as seen by the reverse proxy</p><ul><li>Return:</li><ul><li>scheme://hostname:port/</li></ul></ul></div>&nbsp;<div id="_:get-public-scheme-and-hostname-test" class="methoddetail"><h5><a name="_:get-public-scheme-and-hostname-test"></a>_:get-public-scheme-and-hostname-test</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:test <br>%unit:ignore("needs HTTP connection")<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;<div id="_:get-results-or-errors" class="methoddetail"><h5><a name="_:get-results-or-errors"></a>_:get-results-or-errors</h5><ul class="method"><li class="left"></li><li class="right"><br>( $js as xs:string*) as item()*<br><br></li></ul><p>Get results or errors for a sequence of job IDs.<br>Gets all results of a sequence of jobs.<br>If there were errors raised they are encoded and also returned.</p><ul><li>Parameters:</li><ul><li>$js - Job IDs.<br></li></ul><li>Return:</li><ul><li>The results of the jobs or encoded errors if there were any.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:throw-on-error-in-returns">_:throw-on-error-in-returns</a></li></ul></ul></div>&nbsp;<div id="_:get-xml-file-or-default" class="methoddetail"><h5><a name="_:get-xml-file-or-default"></a>_:get-xml-file-or-default</h5><ul class="method"><li class="left"></li><li class="right"><br>( $fn as xs:string ,<br>&nbsp; $default as xs:string) as document-node()<br><br></li></ul><p>Return doc($fn) or if it cannot be resolves doc($default) without any locks in the calling query.</p><ul><li>Parameters:</li><ul><li>$fn - A filename doc() and doc-available() can usually resolve.<br></li><li>$default - A filename doc() can always open.<br></li></ul><li>Return:</li><ul><li>The contents of the opened document as in memory copy.</li></ul></ul></div>&nbsp;<div id="_:get-xml-file-or-default" class="methoddetail"><h5><a name="_:get-xml-file-or-default"></a>_:get-xml-file-or-default</h5><ul class="method"><li class="left"></li><li class="right"><br>( $fn as xs:string ,<br>&nbsp; $default as xs:string ,<br>&nbsp; $fn-is-valid as xs:boolean) as document-node()<br><br></li></ul><p>Return doc($fn) or if it cannot be resolves doc($default) without any locks in the calling query.<br>If there is a way to know when $fn is definitly not there this can be passed in $fn-is-valid.</p><ul><li>Parameters:</li><ul><li>$fn - A filename doc() and doc-available() can usually resolve.<br></li><li>$default - A filename doc() can always open.<br></li><li>$fn-is-valid - Whether $fn is tried at all<br></li></ul><li>Return:</li><ul><li>The contents of the opened document as in memory copy.</li></ul></ul></div>&nbsp;<div id="_:hydrate" class="methoddetail"><h5><a name="_:hydrate"></a>_:hydrate</h5><ul class="method"><li class="left"></li><li class="right"><br>( $dryed as element(_:d)+) as node()*<br><br></li></ul><p>Fetch the real XML data from databases according to $dryed references.</p><ul><li>Parameters:</li><ul><li>$dryed - References to data in some BaseX database<br></li></ul><li>Return:</li><ul><li>The actual XML data from the databases.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:dehydrate">_:dehydrate</a></li></ul></ul></div>&nbsp;<div id="_:hydrate" class="methoddetail"><h5><a name="_:hydrate"></a>_:hydrate</h5><ul class="method"><li class="left"></li><li class="right"><br>( $dryed as element(_:d)+ ,<br>&nbsp; $filter_code as xs:string) as node()*<br><br></li></ul><p>Fetch the real XML data from databases according to $dryed references.</p><ul><li>Parameters:</li><ul><li>$dryed - References to data in some BaseX database<br></li><li>$filter_code - A XQuery function<br>declare function filter($nodes as node()*) as node()* {()};<br>used to filter the data fetched from BaseX databases usung the references in $dryed<br></li></ul><li>Return:</li><ul><li>The actual XML data from the databases.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:dehydrate">_:dehydrate</a></li></ul></ul></div>&nbsp;<div id="_:query-is-sane" class="methoddetail"><h5><a name="_:query-is-sane"></a>_:query-is-sane</h5><ul class="method"><li class="left"></li><li class="right"><br>%private<br>( $query as xs:string) as xs:boolean<br><br></li></ul><p>Implementation detail: Check whether this XQuery uses updating or other functions that can be destructive.<br>
+<ul>
+<li>Blocks updating queries</li>
+<li>Blocks queries that use xquery:eval()</li>
+<li>Blocks queries that use http:send-request()</li>
+</ul></p><ul><li>Parameters:</li><ul><li>$query - The query to check.<br></li></ul><li>Return:</li><ul><li>True if the function does not use anything unwanted.<br>If there is unwanted code in the XQuery this raises an _err:dubious-query.</li></ul></ul></div>&nbsp;<div id="_:start-eval-job" class="methoddetail"><h5><a name="_:start-eval-job"></a>_:start-eval-job</h5><ul class="method"><li class="left"></li><li class="right"><br>%private<br>( $query as xs:string ,<br>&nbsp; $bindings as (map(*))? ,<br>&nbsp; $jobName as xs:string ,<br>&nbsp; $dontCheckQuery as xs:boolean ,<br>&nbsp; $subJobNumber as xs:integer) as xs:string<br><br></li></ul><p>Implementation detail: Executes a query as separate job.<br>Uses jobs:eval() with caching to execute $query truely independently of the calling XQuery<br>including locks and indexes if the optimizer recognizes the databases in the<br>probably much shorter (sub)query.<br>Tries to create meaningful names and base-uris for $query.</p><ul><li>Parameters:</li><ul><li>$query - Query to execute.<br></li><li>$bindings - Map with bindings for external variables contained in the query.<br></li><li>$jobName - A descriptive name of the job $query does<br></li><li>$dontCheckQuery - Allow updating and more destructive XQueries.<br></li><li>$subJobNumber - An integer used to differentiate very similar jobs.<br></li></ul><li>Return:</li><ul><li>The job ID which jobs:* function take as an argument.<br>Raises an _err:too-many-parallel-requests if there are currently more jobs running<br>then the maximum of parallel jobs configured for BaseX.<br>Will reraise any error while executing $query.</li></ul></ul></div>&nbsp;<div id="_:throw-on-error-in-returns" class="methoddetail"><h5><a name="_:throw-on-error-in-returns"></a>_:throw-on-error-in-returns</h5><ul class="method"><li class="left"></li><li class="right"><br>( $ret as item()*) as item()*<br><br></li></ul><p>Raises an error if there were any reported in the encoded results passed to this function.<br>Gets all results of a sequence of jobs.<br>If there were errors raised they are encoded and also returned.</p><ul><li>Parameters:</li><ul><li>$ret - Some returned results from multiple jobs.<br></li></ul><li>Return:</li><ul><li>The results of the jobs.<br>Raises errors encoded in $ret.</li></ul><li>See:</li><ul><li><a href="xqdoc-file-4.html#_:get-results-or-errors">_:get-results-or-errors</a></li></ul></ul></div>&nbsp;<div id="_:zzz-unit-test-after" class="methoddetail"><h5><a name="_:zzz-unit-test-after"></a>_:zzz-unit-test-after</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:after <br>%updating<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;<div id="_:zzz-unit-test-before" class="methoddetail"><h5><a name="_:zzz-unit-test-before"></a>_:zzz-unit-test-before</h5><ul class="method"><li class="left"></li><li class="right"><br>%unit:before <br>%updating<br>( ) as item()*<br><br></li></ul><ul></ul></div>&nbsp;</div>&nbsp;<div align="left"><i>Created by xqDoc version 1.1 on 2021-03-09T18:47:45.048+01:00</i></div></body></html>
