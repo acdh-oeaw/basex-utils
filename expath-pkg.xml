@@ -1,0 +1,14 @@
+<package xmlns="http://expath.org/ns/pkg"
+         name="http://www.xqdoc.org/1.0/display"
+         abbrev="acdh-utils"
+         version="0.8"
+         spec="1.0">
+
+   <title>ACDH BaseX util library</title>
+
+   <xquery>
+      <namespace>https://www.oeaw.ac.at/acdh/util/util</namespace>
+      <file>util.xqm</file>
+   </xquery>
+
+</package>
