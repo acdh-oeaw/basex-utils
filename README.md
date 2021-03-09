@@ -2,7 +2,7 @@ BaseX utility functions
 =======================
 
 This module contains a variety of utillity functions that proved to be useful in some of the projects
-At [ACDH-CH](https://www.oeaw.ac.at/acdh)
+at [ACDH-CH](https://www.oeaw.ac.at/acdh)
 
 Another kind of eval functions
 ------------------------------
